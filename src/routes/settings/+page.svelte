@@ -8,7 +8,7 @@
 	let enablePush = $state($user.notifications.push);
 	let enableSms = $state($user.notifications.sms);
 
-	const toggleNotification = (type: string) => {
+	const toggleNotification = (type: string) => {``
 		if (type === 'email') {
 			enableEmail = !enableEmail;
 		} else if (type === 'push') {
